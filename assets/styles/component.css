@@ -1,0 +1,407 @@
+/* 
+==================================================================================
+==================================================================================
+http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+==================================================================================
+==================================================================================
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/*
+==================================================================================
+==================================================================================
+Box Model
+==================================================================================
+==================================================================================
+*/
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+
+/* File Content
+==================================================================================
+==================================================================================
+# Components
+  – button
+  – nav
+  – list
+  - drop downs
+==================================================================================
+==================================================================================
+*/
+
+/* 
+==================================================================================
+==================================================================================
+ nav
+==================================================================================
+==================================================================================
+*/
+
+/* 
+==================================================================================
+services
+==================================================================================
+*/
+
+.service_btn {
+	display: inline-block;
+	background-color: #000000;
+	color: white;
+	font-size: 14px;
+	font-weight: 700;
+	width: 179px;
+	height: 53px;
+	padding: 17px 39px;
+	border: 2px solid black;
+	border-radius: 5px;
+}
+
+/* 
+==================================================================================
+private
+==================================================================================
+*/
+
+.priv_btn {
+	background-color: #000000;
+	color: white;
+	padding: 15px 0;
+	text-align: center;
+	width: 88.88%;
+	height: 53px;
+	border-radius: 4px;
+	position: absolute;
+	bottom: 30px;
+}
+
+/* 
+==================================================================================
+help
+==================================================================================
+*/
+
+.help_btn {
+	background-color: white;
+	color: #000000;
+	font-size: 14px;
+	padding: 15px 0;
+	text-align: center;
+	width: 84%;
+	height: 53px;
+	border: 2px solid black;
+	border-radius: 4px;
+	position: absolute;
+	bottom: 20px;
+
+}
+
+/* 
+==================================================================================
+==================================================================================
+ nav
+==================================================================================
+==================================================================================
+*/
+
+/* 
+==================================================================================
+header nav
+==================================================================================
+*/
+
+.head_nav {
+	background-color: wheat;
+	width: 81.5%;
+	display: flex;
+	justify-content: space-between;
+}
+
+
+/* 
+==================================================================================
+footer nav
+==================================================================================
+*/
+
+.footer_nav {
+	background-color: tan;
+	width: 100%;
+	height: 407.5px;
+	overflow: hidden;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+
+
+/* 
+==================================================================================
+==================================================================================
+ list
+==================================================================================
+==================================================================================
+*/
+
+/* 
+==================================================================================
+footer ul
+==================================================================================
+*/
+
+.footer_ul {
+	background-color: saddlebrown;
+	width: 21.5%;
+	height: 100%;
+}
+
+.footer_ul_col4 {
+	background-color: orange;
+	width: 100%;
+	height: auto;
+}
+
+.footer_ul li {
+	width: 100%;
+	height: auto;
+	background-color: teal;
+	margin-bottom: 10px;
+}
+
+/* 
+==================================================================================
+header list
+==================================================================================
+*/
+.left_ul {
+	display: inline-block;
+}
+
+.main_li {
+	background-color: turquoise;
+	display: inline-block;
+	width: auto;
+	height: 50px;
+	padding: 14px 5px;
+}
+
+.right_ul {
+	display: inline-block;
+}
+
+/* 
+==================================================================================
+==================================================================================
+ search bar
+==================================================================================
+==================================================================================
+*/
+
+/* 
+==================================================================================
+hero
+==================================================================================
+*/
+
+.hero .search-field {
+    height: 65px;
+	width: 800px;
+	border-radius: 5px;
+	border: none;
+	margin-right: 10px;
+}
+
+.hero input::placeholder {
+	font-family: 'Lato', sans-serif;
+	font-size: 26px;
+	color: #000000;
+	font-weight: 100;
+	line-height: 65px;
+	margin-left: 20px;
+}
+
+.hero .search-btn {
+    height: 65px;
+    width: 150px;
+    background: #f44336;
+	border-radius: 5px;
+	border: none;
+    color: #fff;
+}
+
+.hero .search-btn {
+    background: #bb0d00;
+    cursor: pointer;
+}
+
+.hero .form-box {
+    margin: 20px 0 10px 0;
+}
+
+/* 
+==================================================================================
+domain
+==================================================================================
+*/
+
+.dom_form {
+	width: 88.6%;
+	height: 50px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.dom_form div {
+	display: inline-block;
+}
+
+.dom_search {
+	display: inline-block;
+	width: 75%;
+	height: 50px;
+	border: 1px solid #333;
+	border-radius: 5px;
+	flex-shrink: 0;
+}
+
+.dom_search::placeholder {
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 32px;
+}
+
+/* 
+==================================================================================
+footer
+==================================================================================
+*/
+
+.footer_form {
+	width: 266px;
+	height: 45px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer_form div {
+	display: inline-block;
+}
+
+.footer_search {
+	display: inline-block;
+	width: 100%;
+	height: 45px;
+	border: 1px solid #333;
+	border-radius: 5px;
+	flex-shrink: 0;
+}
+
+.footer_search::placeholder {
+	color: #000000;
+	font-size: 24px;
+	font-weight: 300;
+	font-family: 'Lato', sans-serif;
+}
+
+.footer input {
+	color: #000000;
+	font-size: 24px;
+	font-weight: 300;
+	font-family: 'Lato', sans-serif;
+}
+
+
+
+
+
+/* 
+==================================================================================
+==================================================================================
+ drop down
+==================================================================================
+==================================================================================
+*/
+
+/* 
+==================================================================================
+header drop down
+==================================================================================
+*/
+
+.drop_container {
+	display: inline-block;
+}
+
+.drop_down {
+	display: none;
+	background-color: yellowgreen;
+	width: 250px;
+	height: auto;
+	padding: 5px;
+	margin-top: 15px;
+}
+
+.drop_down li {
+	background-color: crimson;
+	width: 100%;
+	height: auto;
+	padding: 12px;
+	margin: 10px 0;
+}
+
+.main_li:hover ~ .drop_down {
+	display: block;
+	position: absolute;
+}
