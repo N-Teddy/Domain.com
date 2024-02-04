@@ -98,10 +98,6 @@ Box Model
 	align-items: center;
 }
 
-.hero_cont {
-	width: max-content;
-	height: max-content;
-}
 
 /* 
 =================================================================================
@@ -221,7 +217,6 @@ Box Model
 	background-color: cornflowerblue;
 	width: 100%;
 	margin: 0 auto;
-	height: 581px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -230,14 +225,13 @@ Box Model
 .priv_cont {
 	background-color: darkcyan;
 	width: /*88%*/ 1112px;
-	height: 570px;
+	margin: 10px;
 	flex-shrink: 0;
 }
 
 .priv_bd {
 	background-color: aqua;
 	width: 100%;
-	height: auto;
 	margin: 0 auto;
 	display: flex;
 	gap: 33.4px;
