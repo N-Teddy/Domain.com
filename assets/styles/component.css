@@ -348,12 +348,7 @@ footer
 	flex-shrink: 0;
 }
 
-.footer_search::placeholder {
-	color: #000000;
-	font-size: 24px;
-	font-weight: 300;
-	font-family: 'Lato', sans-serif;
-}
+
 
 .footer input {
 	color: #000000;

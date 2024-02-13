@@ -312,6 +312,14 @@ footer
     font-weight: 300;
 }
 
+.footer_search::placeholder {
+	color: #000000;
+	font-size: 24px;
+	font-weight: 300;
+	font-family: 'Lato', sans-serif;
+    padding-left: 8px;
+}
+
 .footer_ul li {
     font-size: 14px;
     font-family: 400px;
